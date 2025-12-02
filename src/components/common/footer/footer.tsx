@@ -32,13 +32,13 @@ const Footer = () => {
                             <a href="https://github.com/ezrabekele" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                                 <Github size={24} />
                             </a>
-                            <a href="https://linkedin.com/in/ezrabekele" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                            <a href="https://www.linkedin.com/in/ezra-b-57730a396/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                                 <Linkedin size={24} />
                             </a>
-                            <a href="https://twitter.com/ezrabekele" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                                 <Twitter size={24} />
                             </a>
-                            <a href="mailto:ezra.bekele@example.com" className="hover:text-primary transition-colors">
+                            <a href="mailto:ezrabekele.dev@gmail.com" className="hover:text-primary transition-colors">
                                 <Mail size={24} />
                             </a>
                         </div>

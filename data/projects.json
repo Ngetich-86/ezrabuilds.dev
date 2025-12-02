@@ -1,8 +1,8 @@
 [
     {
         "id": "1",
-        "title": "E-Commerce Platform",
-        "description": "A full-featured e-commerce platform built with Next.js and Stripe integration. Features include user authentication, product catalog, shopping cart, and secure checkout.",
+        "title": "Mintt – Digital Experience Redefined",
+        "description": "We designed and developed a modern, user-friendly website for Mintt, a fast-growing financial services company, to clearly showcase its lending solutions and deliver a seamless digital experience. Built with scalability and performance in mind, the platform supports Mintt’s mission to simplify lending through technology.",
         "tech": [
             "Next.js",
             "TypeScript",
@@ -10,14 +10,14 @@
             "Stripe",
             "PostgreSQL"
         ],
-        "github": "https://github.com/ezrabekele/ecommerce",
-        "demo": "https://ecommerce-demo.com",
-        "image": "/images/projects/ecommerce.jpg"
+        "github": "https://github.com/ezrabekele/mintt",
+        "demo": "https://Mintt.com",
+        "image": "/mint.png"
     },
     {
         "id": "2",
-        "title": "Task Management API",
-        "description": "A robust RESTful API for task management using Nest.js and MongoDB. Supports user roles, task assignment, and real-time updates via WebSockets.",
+        "title": "Viking International Moving – Global Relocation, Redefined Online",
+        "description": "We partnered with Viking International Moving—a leading provider of global relocation and shipping services—to build a high-performing, intuitive website that showcases their full suite of services and reinforces their trusted reputation. The result is a clean, responsive platform designed to deliver a seamless experience for clients around the world.",
         "tech": [
             "Nest.js",
             "MongoDB",
@@ -26,28 +26,28 @@
             "Jest"
         ],
         "github": "https://github.com/ezrabekele/task-api",
-        "demo": "https://api.taskmanager.com",
-        "image": "/images/projects/task-api.jpg"
+        "demo": "vikinginternationalmoving.com",
+        "image": "/viking.png"
     },
     {
         "id": "3",
-        "title": "Real-time Chat Application",
-        "description": "A real-time chat application built with React, Node.js, and Socket.io. Features include private messaging, group chats, and file sharing.",
+        "title": "Atlas Auctioneers – Powering Auction Excellence Online",
+        "description": "We built a dynamic, user-friendly website for Atlas Auctioneers, a leader in business liquidation and auction services, to clearly highlight their offerings and streamline client engagement. The result is a high-performing digital platform that blends functionality, clarity, and professional design—reflecting their reputation for excellence in the industry.",
         "tech": [
-            "React",
-            "Node.js",
-            "Socket.io",
-            "Redis",
-            "AWS"
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Stripe",
+            "PostgreSQL"
         ],
         "github": "https://github.com/ezrabekele/chat-app",
-        "demo": "https://chat-app-demo.com",
-        "image": "/images/projects/chat.jpg"
+        "demo": "atlasauctioneers.com",
+        "image": "/auctioneer.png"
     },
     {
         "id": "4",
-        "title": "Financial Dashboard",
-        "description": "An interactive financial dashboard integrating Plaid API for banking data visualization. Uses Recharts for data visualization and Redux for state management.",
+        "title": "Commercial Nextres – Elevating Real Estate & Financial Services Online",
+        "description": "We developed a modern, user-focused website for Commercial Nextres, a leader in real estate and financial services, to effectively showcase its innovative solutions. The platform combines clean design with robust functionality—delivering a seamless experience that reflects the company’s professionalism and market expertise.",
         "tech": [
             "Vue.js",
             "Python",
@@ -56,7 +56,7 @@
             "Chart.js"
         ],
         "github": "https://github.com/ezrabekele/finance-dash",
-        "demo": "https://finance-dash.com",
-        "image": "/images/projects/finance.jpg"
+        "demo": "https://Commercial.Nextres.com",
+        "image": "/commercial.png"
     }
 ]

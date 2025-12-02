@@ -1,9 +1,15 @@
 import Hero from "@/components/home/Hero/Hero";
 import Skills from "@/components/home/Skills/Skills";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import projectsData from "../../data/projects.json";
+import { Project } from "@/types/projects";
 
 export default function Home() {
+  // Get first 3 projects for featured section
+  const featuredProjects = projectsData.slice(0, 3);
+
   return (
     <div className="flex flex-col gap-20 pb-20">
       <Hero />
@@ -18,21 +24,36 @@ export default function Home() {
           </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="p-6 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-xl font-bold mb-2">E-Commerce Platform</h3>
-            <p className="text-slate-600 mb-4">A full-featured e-commerce platform built with Next.js and Stripe.</p>
-            <Link href="/projects" className="text-primary font-medium text-sm hover:underline">Learn more</Link>
-          </div>
-          <div className="p-6 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-xl font-bold mb-2">Task Management API</h3>
-            <p className="text-slate-600 mb-4">Robust RESTful API for task management using Nest.js.</p>
-            <Link href="/projects" className="text-primary font-medium text-sm hover:underline">Learn more</Link>
-          </div>
-          <div className="p-6 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-            <h3 className="text-xl font-bold mb-2">Real-time Chat App</h3>
-            <p className="text-slate-600 mb-4">Real-time chat application built with React and Socket.io.</p>
-            <Link href="/projects" className="text-primary font-medium text-sm hover:underline">Learn more</Link>
-          </div>
+          {featuredProjects.map((project: Project) => (
+            <div key={project.id} className="group p-6 bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+              {/* Project Image */}
+              {project.image && (
+                <div className="relative w-full h-48 mb-4 rounded-lg overflow-hidden bg-slate-100">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
+              <h3 className="text-xl font-bold mb-2 line-clamp-2">{project.title}</h3>
+              <p className="text-slate-600 mb-4 line-clamp-3">{project.description}</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {project.tech.slice(0, 3).map((tech: string) => (
+                  <span key={tech} className="px-2 py-1 bg-slate-50 border border-slate-200 rounded text-xs text-slate-600">
+                    {tech}
+                  </span>
+                ))}
+                {project.tech.length > 3 && (
+                  <span className="px-2 py-1 bg-slate-50 border border-slate-200 rounded text-xs text-slate-600">
+                    +{project.tech.length - 3} more
+                  </span>
+                )}
+              </div>
+              <Link href="/projects" className="text-primary font-medium text-sm hover:underline">Learn more</Link>
+            </div>
+          ))}
         </div>
       </section>
 
