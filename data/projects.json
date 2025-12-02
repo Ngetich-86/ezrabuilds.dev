@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "title": "E-Commerce Platform",
+        "description": "A full-featured e-commerce platform built with Next.js and Stripe integration. Features include user authentication, product catalog, shopping cart, and secure checkout.",
+        "tech": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Stripe",
+            "PostgreSQL"
+        ],
+        "github": "https://github.com/ezrabekele/ecommerce",
+        "demo": "https://ecommerce-demo.com",
+        "image": "/images/projects/ecommerce.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Task Management API",
+        "description": "A robust RESTful API for task management using Nest.js and MongoDB. Supports user roles, task assignment, and real-time updates via WebSockets.",
+        "tech": [
+            "Nest.js",
+            "MongoDB",
+            "Docker",
+            "Swagger",
+            "Jest"
+        ],
+        "github": "https://github.com/ezrabekele/task-api",
+        "demo": "https://api.taskmanager.com",
+        "image": "/images/projects/task-api.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Real-time Chat Application",
+        "description": "A real-time chat application built with React, Node.js, and Socket.io. Features include private messaging, group chats, and file sharing.",
+        "tech": [
+            "React",
+            "Node.js",
+            "Socket.io",
+            "Redis",
+            "AWS"
+        ],
+        "github": "https://github.com/ezrabekele/chat-app",
+        "demo": "https://chat-app-demo.com",
+        "image": "/images/projects/chat.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Financial Dashboard",
+        "description": "An interactive financial dashboard integrating Plaid API for banking data visualization. Uses Recharts for data visualization and Redux for state management.",
+        "tech": [
+            "Vue.js",
+            "Python",
+            "Django",
+            "Plaid API",
+            "Chart.js"
+        ],
+        "github": "https://github.com/ezrabekele/finance-dash",
+        "demo": "https://finance-dash.com",
+        "image": "/images/projects/finance.jpg"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "email": "ezra.bekele@example.com",
+    "phone": "(737) 358-2180",
+    "location": "Woodland Hills, CA",
+    "social": {
+        "github": "https://github.com/ezrabekele",
+        "linkedin": "https://linkedin.com/in/ezrabekele",
+        "twitter": "https://twitter.com/ezrabekele"
+    }
+}

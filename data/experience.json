@@ -1,0 +1,83 @@
+[
+    {
+        "id": "1",
+        "role": "Full Stack Developer",
+        "company": "The Tech Consultants, LLC",
+        "location": "Woodland Hills, CA",
+        "period": "03/2023 – 10/2025",
+        "description": [
+            "Developed responsive and dynamic user interfaces using React.js, Angular, Vue.js, and modern UI frameworks like Tailwind CSS, Bootstrap 5.",
+            "Built cross-browser compatible pages with HTML5, CSS3, JavaScript, and TypeScript to deliver smooth user experiences.",
+            "Collaborated with designers and engineers to improve development workflows and resolve UI/performance issues efficiently.",
+            "Troubleshot and maintained web applications to ensure stability and uninterrupted functionality.",
+            "Developed backend services and APIs using Node.js, Express.js, Nest.js, Python, Django, .NET, and GraphQL.",
+            "Implemented RESTful APIs to support user interactions, authentication, and real-time features.",
+            "Built and maintained CI/CD pipelines using GitHub Actions, Azure DevOps, and Jenkins for automated testing and deployment.",
+            "Used Docker extensively for containerization, environment consistency, microservices development, and streamlined deployment workflows.",
+            "Implemented comprehensive unit and integration tests using Jest, Mocha, NUnit, PyTest, and other testing frameworks to ensure code reliability and maintainability.",
+            "Deployed applications to AWS and Azure, ensuring scalability and reliability."
+        ],
+        "skills": [
+            "React.js",
+            "Angular",
+            "Vue.js",
+            "Node.js",
+            "Python",
+            ".NET",
+            "AWS",
+            "Azure",
+            "Docker"
+        ]
+    },
+    {
+        "id": "2",
+        "role": "Junior Full Stack Developer",
+        "company": "MassLight",
+        "location": "Bethesda, MD",
+        "period": "01/2022 – 11/2022",
+        "description": [
+            "Proficient in full-stack development using React.js, Nest.js, and TypeScript for robust frontend and backend solutions, with additional experience building backend services using Python, C#, and the .NET framework.",
+            "Specialized in performance optimization to ensure scalable, efficient, and high-quality applications across JavaScript, Python, and .NET codebases.",
+            "Skilled in database management, especially PostgreSQL, with a strong focus on data integrity, optimized queries, and effective integration with both Python- and .NET-based systems.",
+            "Experienced in building responsive, intuitive UIs using Tailwind CSS, HTML5, CSS3, and SCSS.",
+            "Proficient in deploying and managing applications on AWS and Azure, ensuring reliability, security, and scalability for multi-language environments.",
+            "Extensively used Docker for containerization, environment consistency, microservices orchestration, and streamlined deployments across multiple tech stacks.",
+            "Implemented comprehensive unit and integration tests using frameworks such as Jest, Mocha, NUnit, and PyTest to ensure code reliability, maintainability, and high test coverage.",
+            "Integrated third-party services such as Plaid, Stripe, Twilio, and other APIs to enhance application functionality and user experience across diverse tech stacks, including Python and .NET services."
+        ],
+        "skills": [
+            "React.js",
+            "Nest.js",
+            "Python",
+            "C#",
+            ".NET",
+            "PostgreSQL",
+            "AWS",
+            "Azure"
+        ]
+    },
+    {
+        "id": "3",
+        "role": "Full Stack Engineering Intern",
+        "company": "Software Freedom Conservancy",
+        "location": "Brooklyn, NY",
+        "period": "02/2019 – 11/2021",
+        "description": [
+            "Developed features across frontend and backend using modern JavaScript/TypeScript frameworks, as well as backend services built with Python and C#.",
+            "Assisted in building and integrating RESTful APIs with responsive UI components, including contributions to .NET-based API endpoints and services.",
+            "Worked with databases to design schemas, write queries, and optimize data operations across SQL, NoSQL, and .NET data layers.",
+            "Improved code quality through comprehensive unit and integration testing, code reviews, and documentation across JavaScript, Python, and .NET codebases.",
+            "Supported DevOps workflows using Git, CI/CD pipelines, and cloud deployment tools for multi-language environments.",
+            "Collaborated with senior engineers in agile sprints, contributing to efficient software delivery and cross-stack development involving JavaScript, Python, and .NET."
+        ],
+        "skills": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "C#",
+            ".NET",
+            "SQL",
+            "NoSQL"
+        ]
+    }
+]

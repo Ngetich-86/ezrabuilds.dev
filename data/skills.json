@@ -1,0 +1,54 @@
+{
+    "frontend": [
+        "React.js",
+        "Next.js",
+        "Vue.js",
+        "Nuxt.js",
+        "Svelte",
+        "Angular",
+        "HTML5",
+        "CSS3",
+        "SCSS",
+        "Tailwind CSS",
+        "Bootstrap 5"
+    ],
+    "backend": [
+        "Node.js",
+        "Nest.js",
+        "Express.js",
+        ".NET",
+        "Python (Django, Fast API)",
+        "GraphQL"
+    ],
+    "database": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Firebase"
+    ],
+    "devops": [
+        "AWS (EC2, S3, RDS, Lambda)",
+        "Azure",
+        "Docker",
+        "Jenkins",
+        "GitHub Actions",
+        "CI/CD"
+    ],
+    "tools": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Jira",
+        "Postman",
+        "Swagger",
+        "VS Code",
+        "Cursor"
+    ],
+    "testing": [
+        "Jest",
+        "Cypress",
+        "Mocha",
+        "NUnit",
+        "PyTest"
+    ]
+}
