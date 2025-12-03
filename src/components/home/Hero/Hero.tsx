@@ -26,7 +26,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
             {/* Background Elements */}
             <div className="absolute inset-0 -z-10 overflow-hidden">
                 <motion.div
@@ -63,7 +63,7 @@ const Hero = () => {
             >
                 <motion.div variants={fadeInUp}>
                     <motion.span
-                        className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6"
+                        className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-medium"
                         whileHover={{ scale: 1.05 }}
                         transition={{ type: "spring", stiffness: 300 }}
                     >
