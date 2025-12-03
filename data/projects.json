@@ -58,5 +58,80 @@
         "github": "https://github.com/ezrabekele/finance-dash",
         "demo": "https://Commercial.Nextres.com",
         "image": "/commercial.png"
+    },
+    {
+        "id": "5",
+        "title": "Nexys – Loan Origination Software",
+        "description": "A collaboration between CodeCharley x Nexys, this project involved designing and building a modern digital platform that streamlines the entire loan origination workflow—from application to underwriting. The solution eliminates manual errors, increases productivity, and delivers a seamless experience for private lenders, banks, mortgage professionals, and borrowers.I contributed to creating an intuitive, high-performance interface that helps financial institutions manage loan applications more efficiently and confidently. Nexys empowers lenders with a smarter, automated, and more transparent lending process.",
+        "tech": [
+            "Vue.js",
+            "Python",
+            "Django",
+            "Plaid API",
+            "Chart.js"
+        ],
+        "github": "#",
+        "demo": "nexysllc@gmail.com",
+        "image": "/nexys.png"
+    },
+    {
+        "id": "6",
+        "title": "eDSCR – Retail Loan Origination Software",
+        "description": "we partnered with eDSCR to build a modern, high-performance digital platform tailored for the real estate and financial services industry. eDSCR needed a solution that not only highlighted its advanced retail loan origination capabilities but also delivered a smooth, intuitive user experience for its customers.",
+        "tech": [
+            "Vue.js",
+            "Python",
+            "Django",
+            "Plaid API",
+            "Chart.js"
+        ],
+        "github": "#",
+        "demo": "https://brightbrickroadfinance.com/",
+        "image": "/edscr.png"
+    },
+    {
+        "id": "7",
+        "title": "Finresi – Innovative Web Platform for Lending & Financial Services",
+        "description": "we partnered with Finresi to design and develop a modern, high-impact digital platform tailored for the lending and financial services sector. Finresi needed a website that clearly showcased its powerful solutions while delivering a seamless, intuitive experience for its clients.",
+        "tech": [
+            "Vue.js",
+            "Python",
+            "Django",
+            "Plaid API",
+            "Chart.js"
+        ],
+        "github": "https://github.com/ezrabekele/finance-dash",
+        "demo": "https://finresi.com",
+        "image": "/finresi.png"
+    },
+    {
+        "id": "8",
+        "title": "Lendbright – Modern Web Experience for Financial Services",
+        "description": "I helped design and develop a sleek, user-friendly website for Lendbright, a fast-growing company in the lending and financial services sector. The goal was to clearly showcase their solutions while delivering a smooth, intuitive digital experience. The result is a modern, high-performance platform built with precision and crafted to support Lendbright’s digital growth.",
+        "tech": [
+            "Vue.js",
+            "Python",
+            "Django",
+            "Plaid API",
+            "Chart.js"
+        ],
+        "github": "https://github.com/ezrabekele/finance-dash",
+        "demo": "Lendbright.com",
+        "image": "/lendbrightfullhome.png"
+    },
+    {
+        "id": "9",
+        "title": "CodeCharley – Web Design & Development",
+        "description": "At CodeCharley, I help businesses build strong digital first impressions through custom, high-performing websites. Working closely with clients, our team designs and develops modern, visually striking platforms that are optimized for usability, performance, and business results.",
+        "tech": [
+            "Vue.js",
+            "Python",
+            "Django",
+            "Plaid API",
+            "Chart.js"
+        ],
+        "github": "https://github.com/ezrabekele/finance-dash",
+        "demo": "https://codecharley.com/",
+        "image": "/codecharley.png"
     }
 ]
