@@ -29,7 +29,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
                         <div className="flex space-x-4">
-                            <a href="https://github.com/ezrabekele" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                            <a href="https://github.com/Ngetich-86" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                                 <Github size={24} />
                             </a>
                             <a href="https://www.linkedin.com/in/ezra-b-57730a396/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
